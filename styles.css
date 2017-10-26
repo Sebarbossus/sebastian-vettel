@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: #444;
+    font-weight: bold;
+}
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40pt;
+}
+#title-div {
+    width: 100%;
+    padding-bottom: 15px;
+    background: linear-gradient(white, #777);
+    border-bottom: 30px solid #000;
+}
+img#bahrain {
+    width: 296px;
+    height: 167px;
+    display: inline-block;
+    float: left;
+    margin-top: 5%;
+    margin-right: 2px;
+    margin-left: 2px;
+    border: 1px solid #444;
+}
+img#gina {
+    width: 250px;
+    height: 167px;
+    display: inline-block;
+    float: left;
+    margin: 20px 25px 0;
+    border: 1px solid #444;
+}
+.bio {
+    width: 60%;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 5px;
+    background: -moz-linear-gradient(rgb(223, 56, 56), white);
+    background: -o-linear-gradient(rgb(223, 56, 56), white);
+    background: -webkit-linear-gradient(rgb(223, 56, 56), white);
+    background: linear-gradient(rgb(223, 56, 56), white);
+    color: #000;
+    /* border-right: 1px solid #000; */
+    border-left: 1px solid #000;
+}
+#more{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: rgb(223, 56, 56);
+}
+.img-wrap {
+    width: 300px;
+    align-items: center;
+    margin-right: 0;
+    display: inline-block;
+}
+iframe {
+    display: inline-block;
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.footer {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    bottom: 0;
+}
+@media screen and (max-width: 800px) {
+    .bio, img#bahrain, img#gina,iframe {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        align-content: center;
+    }
+    img#bahrain, img#gina, iframe {
+        margin: 5% auto;
+    }
+    img#bahrain, img#gina {
+        height: 20%;
+    }
+    .img-wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
