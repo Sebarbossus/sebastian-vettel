@@ -15,7 +15,7 @@
     width: 100%;
     padding-bottom: 15px;
     background: linear-gradient(white, #777);
-    border-bottom: 30px solid #000;
+    border-bottom: 30px solid #fff;
 }
 img#bahrain {
     width: 296px;
@@ -38,15 +38,15 @@ img#gina {
 .bio {
     width: 60%;
     margin-left: 15px;
+    margin-top: 50px;
     display: inline-block;
     padding: 5px;
     background: -moz-linear-gradient(rgb(223, 56, 56), white);
     background: -o-linear-gradient(rgb(223, 56, 56), white);
     background: -webkit-linear-gradient(rgb(223, 56, 56), white);
     background: linear-gradient(rgb(223, 56, 56), white);
-    color: #000;
-    /* border-right: 1px solid #000; */
-    border-left: 1px solid #000;
+    color: #444;
+    text-shadow: .3px .3px #000;
 }
 #more{
     text-align: center;
@@ -56,7 +56,11 @@ img#gina {
 
 .wrapper {
     width: 100%;
-    background-color: rgb(223, 56, 56);
+    /* background-color: #000; */
+    background: -moz-linear-gradient(rgb(223, 56, 56), white);
+    background: -o-linear-gradient(rgb(223, 56, 56), white);
+    background: -webkit-linear-gradient(rgb(223, 56, 56), white);
+    background: linear-gradient(rgb(223, 56, 56), white);
 }
 .img-wrap {
     width: 300px;
